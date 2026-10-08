@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Employee Attrition Analysis
 
 ## Project Overview
@@ -21,6 +20,7 @@ The project includes data analysis, visualization, data preprocessing, machine l
 The project uses the IBM HR Analytics Employee Attrition & Performance dataset available on Kaggle.
 
 Dataset source:
+
 https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 The dataset contains 1,470 employee records and 35 columns.
@@ -56,7 +56,7 @@ The following classification models were trained and compared:
 | Decision Tree | 78.57% | 37.88% | 53.19% | 44.25% |
 | Random Forest | 84.01% | 50.00% | 34.04% | 40.51% |
 
-### Final Model
+## Final Model
 
 Random Forest was selected for the final Streamlit application because it achieved the highest accuracy of **84.01%**.
 
